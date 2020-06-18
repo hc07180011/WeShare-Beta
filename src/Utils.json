@@ -1,0 +1,51 @@
+{
+	"url": "http://140.112.30.32",
+	"port": 48780,
+	"mes": {
+		"eventCode": [
+			"code not exists!",
+			"format error",
+			"event code",
+			"Join Now"
+		],
+		"signUp": [
+			"must have an event title!",
+			"you have not check the policy!",
+			"connection failed!",
+			"Event Title",
+			"I have read and accept the terms and privacy policy.",
+			"Already have a token? Click to Sign in"
+		],
+		"signIn": [
+			"token invalid!",
+			"connect failed!",
+			"Token",
+			"Do not have a token? Click to Sign Up",
+			"must have an event token!"
+		],
+		"download": [
+			"currently no file!",
+			"server error!"
+		],
+		"upload": [
+			"Copy Token",
+			"Copied!",
+			"reach file limit!",
+			"Please enter text/url or select a file!",
+			"session invalid!",
+			"content uploaded!",
+			"server error!",
+			"Enter text or url..."
+		],
+		"refresh": [
+			"Click to Update"
+		]
+	},
+	"flask": {
+		"eventcode": "/weshare/join",
+		"signUp": "/weshare/create",
+		"signIn": "/weshare/admin",
+		"download": "/weshare/show",
+		"upload": "/weshare/insert"
+	}
+}

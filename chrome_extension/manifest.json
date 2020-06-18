@@ -1,0 +1,17 @@
+{
+	"short_name": "WeShare",
+	"name": "WeShare",
+	"description": "讓您簡單跟與會者分享任意文字、連結、檔案",
+	"icons": {
+		"16": "icon/icon16.png",
+		"48": "icon/icon48.png",
+		"128": "icon/icon128.png"
+	},
+	"manifest_version": 2,
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_title": "WeShare",
+		"default_icon": "icon/icon16.png"
+	},
+	"version": "1.0.0"
+}
